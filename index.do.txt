@@ -1,4 +1,0 @@
-TITLE: Some projects
-AUTHOR: Mikael Mortensen
-
-  * "Shenfun - automating the spectral Galerkin method": "https://mikaem.github.io/shenfun/shenfun_bootstrap.html"
