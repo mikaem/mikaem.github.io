@@ -1,18 +1,20 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|openwebicons);
 
 
+
 body {
-    font: 80%  helvetica-neue, helvetica, arial, san-serif, verdana, 'droid sans';
-    background-color:#073642;
-    background: linear-gradient(#073642, #b5c9d9);
-    color:#839496;
+	font: 80%  helvetica-neue, helvetica, arial, san-serif, courier, 'droid sans';
+  	background-color:#ffffff;
+        background: linear-gradient(#ffffff, #cfcfcf);
+        #color:#657b83;
+        color:#3C494E;
     padding: 2%;
     margin: 0;
 }
 
-::-moz-selection{background:#2aa198;color:#fdf6e3;text-shadow:none}
+::-moz-selection{background:#268bd2;color:#ffffff;text-shadow:none}
 
-::selection{background:#2aa198;color:#fdf6e3;text-shadow:none}
+::selection{background:#268bd2;color:#ffffff;text-shadow:none}
 
 #list-nav{
     list-style:none;
@@ -30,27 +32,27 @@ body {
     position:relative;
     text-align:left;
     width:16.66%;
-    font: 125%   helvetica-neue, helvetica, arial, san-serif, verdana, 'droid sans';
-    box-shadow: 2.5px 2.5px 2.5px 0px #002731;
+    font: 125%   helvetica-neue, helvetica, arial, san-serif, courier, 'droid sans';
+    box-shadow: 2px 2px 2px 0px #93a1a1;
 }
 
 #list-nav a{
     display:block;
     padding:5px;
-    color:#b58900;
-    background:#073642;
+    color:#859900;
+    background:#ffffff;
     text-decoration:none;
 }
 
 #list-nav a:hover{
-    color:#fdf6e3;
+    color:#ffffff;
     background:#2aa198;
     text-decoration:none;
     padding: 5px;
 }
 
 #list-nav ul{
-    background:#073642;
+  background:#ffffff;
     list-style:none;
     position:absolute;
     left:-9999px;
@@ -63,9 +65,9 @@ body {
     padding:0px;
     float:center;
     width:100%;
-    font: 100%   helvetica-neue, helvetica, arial, san-serif, verdana, 'droid sans';
+    font: 100%   helvetica-neue, helvetica, arial, san-serif, courier, 'droid sans';
     text-decoration:none;
-    box-shadow: 2.5px 2.5px 2.5px 0px #002731;
+    box-shadow: 2px 2px 2px 0px #93a1a1;
 }
 
 #list-nav ul a{
@@ -77,8 +79,8 @@ body {
 #list-nav li:hover a{
     padding: 5px;
     text-decoration:none;
-    background:#2aa198;
-    color:#fdf6e3;
+    background:#b58900;
+    color:#ffffff;
 }
 
 #list-nav li:hover ul{
@@ -91,15 +93,16 @@ body {
 #list-nav li:hover ul a{
     text-decoration:none;
     padding: 5px;
-    background:#073642;
-    color:#b58900;
+  background:#ffffff;
+  color:#859900;
 }
 
 #list-nav li:hover ul li a:hover{
-    background:#2aa198;
-    color:#fdf6e3;
+  background:#b58900;
+    color:#ffffff;
     padding: 5px;
 }
+
 
 ul {
     margin: 0.5%;
@@ -110,7 +113,7 @@ ul {
 
 h1 {
   font-family: Comic sans MS, verdana, helvetica-neue, helvetica, arial;
-  color: #2aa198;
+  color: #268bd2;
   margin: 0.9%;
   margin-left: 0.9%;
   width: 100%;
@@ -118,30 +121,24 @@ h1 {
 }
 
 a {
-    color: #859900;
-    text-decoration: underline;
+  color: #859900;
+  text-decoration: underline;
 }
-
-a {
-    color: #859900;
-    text-decoration: underline;
-}
-
 
 a:hover, a:active {
-    outline:none
+  outline:none
 }
 
-a, a:active, a:visited { color: #b58900; }
-a:hover { color: #2aa198; }
+a, a:active, a:visited { color: #859900; }
+a:hover { color: #b58900; }
 
 #main {
-    font: 80%  helvetica-neue, helvetica, arial, verdana, san-serif, 'droid sans';
-    background: #002b36;
+    font: 80%  helvetica-neue, helvetica, arial, courier, san-serif, 'droid sans';
+    background: #ffffff;
     margin: 0 auto;
     width: 100%;
     max-width: 850px;
-    box-shadow: 5px 5px 2.5px #002731;
+    box-shadow: 5px 5px 2.5px #93a1a1;
     background-image: url(https://raw.githubusercontent.com/hplgit/doconce/master/bundled/html_styles/style_solarized_box/grid.png);
     position: relative;
     background-position: 0.5% 0;
@@ -154,6 +151,7 @@ p {
   text-align:justify;
   display:block;
   padding-bottom:0;
+  font-size: 110%;
   max-width: 1000px;
 }
 
@@ -164,7 +162,7 @@ header {
 }
 
 img {
-  box-shadow: 2.5px 2.5px 2.5px 0px #002731;
+  box-shadow: 2px 2px 2px 0px #93a1a1;
 }
 
 .foot-img {
@@ -176,18 +174,19 @@ img {
   border:0px;
 }
 
-/*.button-light {
+
+.button-light {
     margin-right: 0%;
     margin-left: 0%;
     margin-top: 5%;
-    background: #eee8d5;
+    background: #ffffff;
     border-radius: 0%;
     padding: 3% 9%;
-    display: inline;
+    display: inline-block;
     border-color: #586e75;
     border-width: 1%;
     border-style: solid;
-    font-family:  helvetica-neue, helvetica, arial, san-serif, verdana, 'droid sans';
+    font-family: helvetica-neue, helvetica, arial, san-serif, courier, 'droid sans';
     font-size: 65%;
     color: #586e75;
 }
@@ -199,22 +198,22 @@ img {
     background: #073642;
     border-radius: 0%;
     padding: 3% 9%;
-    display: inline;
+    display: inline-block;
     border-color: #586e75;
     border-width: 1%;
     border-style: solid;
-    font-family:  helvetica-neue, helvetica, arial, san-serif, verdana, 'droid sans';
+    font-family: helvetica-neue, helvetica, arial, san-serif, courier, 'droid sans';
     font-size: 65%;
     color: #93a1a1;
 }
 
 .button-light:hover {
-    background: #fdf6e3;
+    background: #ffffff;
 }
 
 .button-dark:hover {
     background: #002b36;
-}*/
+}
 
 header h1 {
   vertical-align: top;
@@ -225,12 +224,10 @@ form {
   display: inline;
   font-size: 25%;
   float: right;
-  color: #839496;
+  color: #93a1a1;
   font-weight: normal;
   margin-right: 3.5%;
 }
-
-
 
 /*BELOW IS IDENTICAL TO STYLESD.CSS*/
 
@@ -244,6 +241,7 @@ ul.entries li {
 }
 ul.entries img {
   width: 100%;
+  max-width: 1000px;
 }
 ul.entries li h3 {
   position: absolute;
@@ -291,6 +289,7 @@ p {
     font-family: $fontstack;
     font-weight: lighter;
     margin: 0 0 $vmargin 0;
+    max-width: 1000px;
 }
 strong { font-weight: bold; }
 em { }
@@ -318,7 +317,6 @@ dd {
 h1,h2,h3,h4,h5,h6 {
     font-family: $fontstack;
     font-weight: lighter;
-    text-transform: none;
     margin-top:$vmargin*2;
     margin-bottom:$vmargin;
     max-width: 1000px;
@@ -327,7 +325,6 @@ h1 {
     font-weight: bold;
     border-bottom: 0% solid;
     max-width: 1000px;
-    margin-right: 1%;
 }
 
 h2 {
@@ -378,13 +375,13 @@ header {
 
 footer {
     border-top: 1px dotted;
-    border-color: #586e75;
+    border-color: #93a1a1;
     padding-left:$hmargin;
     line-height:200%;
     padding-right:1em;
     text-align: center;
     font-size: 83%;
-    padding-bottom:2%;
+    padding-bottom: 2%;
     padding-top:2%;
     max-width: 1000px;
 }
@@ -402,10 +399,11 @@ footer {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  text-decoration: none;
 }
 
-/*Button Stuff*/
+
+
+/*Button stuff*/
 
 .btn {
   display: inline-block;
@@ -422,23 +420,23 @@ footer {
   cursor: pointer;
   color: #586e75;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #032f3b;
-  background-image: -moz-linear-gradient(top, #002b36, #073642);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#002b36), to(#073642));
-  background-image: -webkit-linear-gradient(top, #002b36, #073642);
-  background-image: -o-linear-gradient(top, #002b36, #073642);
-  background-image: linear-gradient(to bottom, #002b36, #073642);
+  background-color: #f7f0dd;
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff002b36', endColorstr='#ff073642', GradientType=0);
-  border-color: #073642 #073642 #000000;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
+  border-color: #ffffff #ffffff #d8ca9f;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #073642;
+  *background-color: #ffffff;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border: 1px solid #cccccc;
   *border: 0;
-  border-bottom-color: #b3b3b3;
+  border-bottom-color: #cfcfcf;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -456,12 +454,12 @@ footer {
 .btn.disabled,
 .btn[disabled] {
   color: #586e75;
-  background-color: #073642;
-  *background-color: #05232b;
+  background-color: #ffffff;
+  *background-color: #e7dec3;
 }
 .btn:active,
 .btn.active {
-  background-color: #021014 \9;
+  background-color: #dfd4b1 \9;
 }
 .btn:first-child {
   *margin-left: 0;
@@ -539,6 +537,7 @@ footer {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+  text-decoration: none;
 }
 .btn-block {
   display: block;
@@ -727,17 +726,17 @@ input[type="button"].btn-block {
 .btn-inverse {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #f7f0dd;
-  background-image: -moz-linear-gradient(top, #fdf6e3, #eee8d5);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdf6e3), to(#eee8d5));
-  background-image: -webkit-linear-gradient(top, #fdf6e3, #eee8d5);
-  background-image: -o-linear-gradient(top, #fdf6e3, #eee8d5);
-  background-image: linear-gradient(to bottom, #fdf6e3, #eee8d5);
+  background-color: #032f3b;
+  background-image: -moz-linear-gradient(top, #002b36, #073642);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#002b36), to(#073642));
+  background-image: -webkit-linear-gradient(top, #002b36, #073642);
+  background-image: -o-linear-gradient(top, #002b36, #073642);
+  background-image: linear-gradient(to bottom, #002b36, #073642);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffdf6e3', endColorstr='#ffeee8d5', GradientType=0);
-  border-color: #eee8d5 #eee8d5 #d8ca9f;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff002b36', endColorstr='#ff073642', GradientType=0);
+  border-color: #073642 #073642 #000000;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #eee8d5;
+  *background-color: #073642;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -748,12 +747,12 @@ input[type="button"].btn-block {
 .btn-inverse.disabled,
 .btn-inverse[disabled] {
   color: #ffffff;
-  background-color: #eee8d5;
-  *background-color: #e7dec3;
+  background-color: #073642;
+  *background-color: #05232b;
 }
 .btn-inverse:active,
 .btn-inverse.active {
-  background-color: #dfd4b1 \9;
+  background-color: #021014 \9;
 }
 button.btn,
 input[type="submit"].btn {
@@ -941,7 +940,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
 }
 .btn-group.open .btn.dropdown-toggle {
-  background-color: #073642;
+  background-color: #ffffff;
 }
 .btn-group.open .btn-primary.dropdown-toggle {
   background-color: #2660d2;
@@ -959,7 +958,7 @@ input[type="submit"].btn.btn-mini {
   background-color: #1a6091;
 }
 .btn-group.open .btn-inverse.dropdown-toggle {
-  background-color: #eee8d5;
+  background-color: #073642;
 }
 .btn .caret {
   margin-top: 8px;
@@ -984,8 +983,8 @@ input[type="submit"].btn.btn-mini {
 .btn-info .caret,
 .btn-success .caret,
 .btn-inverse .caret {
-  border-top-color: #fdf6e3;
-  border-bottom-color: #fdf6e3;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 .btn-group-vertical {
   display: inline-block;
@@ -1046,27 +1045,25 @@ input[type="submit"].btn.btn-mini {
   text-shadow: none;
 }
 .btn:hover {
-  color: #839496;
+  color: #657b83;
   text-decoration: none;
-  background-color: #073642;
-  *background-color: #073642;
+  background-color: #ffffff;
+  *background-color: #ffffff;
 }
 .btn.active,
 .btn:active {
-  background-color: #073642;
-  background-color: #073642 \9;
+  background-color: #ffffff;
+  background-color: #ffffff \9;
 }
 .btn.disabled,
 .btn[disabled] {
-  background-color: #073642;
+  background-color: #ffffff;
 }
 .btn-inverse,
 .btn-inverse:hover {
-  color: #002b36;
+  color: #ffffff;
   text-shadow: none;
 }
-
-
 
 
 
@@ -1079,8 +1076,8 @@ input[type="submit"].btn.btn-mini {
   font-size: 11px;
   opacity: 0;
   filter: alpha(opacity=0);
-  box-shadow: 2px 2px 2px 0px #002731;
-  border:1px solid #002b36;
+  box-shadow: 2px 2px 2px 0px #93a1a1;
+  border:1px solid #ffffff;
 
 
 }
@@ -1103,10 +1100,10 @@ input[type="submit"].btn.btn-mini {
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 6px;
-  color: #eee8d5;
+  color: #073642;
   text-align: center;
   text-decoration: none;
-  background-color: #073642;
+  background-color: #ffffff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -1152,7 +1149,6 @@ input[type="submit"].btn.btn-mini {
   border-bottom-color: #073642;
 }
 
-
 /* openwebicons */
 [class*="openwebicons-"]:before {
   font-family: 'OpenWeb Icons', sans-serif;
@@ -1197,8 +1193,8 @@ body:before {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  color: #93a1a1;
-  background-color: #073642;
+  color: #555;
+  background-color: #ffffff;
   background-position: 10px 5px;
   background-repeat: no-repeat;
   background-size: 38px;
@@ -1209,7 +1205,7 @@ body:before {
 .alert-block > p, .alert-block > ul {margin-bottom:1em}
 .alert li {margin-top: 1em}
 .alert-block p+p {margin-top:5px}
-.alert-notice { background-image: url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_gray_notice.png); }
-.alert-summary  { background-image:url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_gray_summary.png); }
-.alert-warning { background-image: url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_gray_warning.png); }
-.alert-question {background-image:url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_gray_question.png); }
+.alert-notice { background-image: url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_yellow_notice.png); }
+.alert-summary  { background-image:url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_yellow_summary.png); }
+.alert-warning { background-image: url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_yellow_warning.png); }
+.alert-question {background-image:url(https://raw.github.com/hplgit/doconce/master/bundled/html_images/small_yellow_question.png); }
