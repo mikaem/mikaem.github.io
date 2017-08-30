@@ -10,7 +10,8 @@ topics may seem to be all over the place:-)
 I am involved with plasma physics and
 rocket science through the "4DSpace":
 "http://www.mn.uio.no/fysikk/english/research/projects/4dspace/" research
-initiative at the University of Oslo, where we study instabilities and
+initiative at the University of Oslo, where we (I supervise two PhD students
+within this group, Diako Darian and Sigvald Marholm) study instabilities and
 turbulence in the polar ionosphere. "See more": "plasma.html". 
 
 I have been working as an "adjunct research scientist": "https://www.simula.no/people/mikaelmo" at "Simula":
@@ -25,13 +26,11 @@ my interest in Python as an efficient tool for high-performance computing, this
 has led to the "spectralDNS": "https://github.com/spectralDNS" project. "See more": "spectralDNS.html".
 
 I currently supervise two PhD-students, Tormod Landet and Christopher Friedemann,
-that are working on two-phase flows. "See more": "multiphase.html"
+that are working on two-phase flows. "See more": "multiphase.html".
 
-If you are interested in more about my different research projects, please
-follow these links for extended information:
-  * "spectralDNS": "spectralDNS.html" 
-  * "Biomedical flows": "biomedical.html"
-  * "Turbulent combustion": "cmc.html"
-  * "4DSpace": "plasma.html"
-  * "Multiphase": "multiphase.html"
+And finally, through my old PhD student Miroslav Kuchta, I have ventured into numerical
+analysis. "See more": "numerical.html".
+
+If you are interested in learning more about my different research projects, please
+follow the links in the Research tab at the top of this page for extended information.
 

@@ -10,9 +10,9 @@ Imperial College London. The project is sponsored by the Norwegian Research
 Council. We use OpenFOAM to simulate and understand two-phase flows in annulus
 configurations. cite{chris2017}
 
-Tormod is investigating finite element methods for use with two-phase flows. We
+In Tormod's project we are investigating finite element methods for use with two-phase flows. We
 are looking into slope limiting of the velocity field in a discontinuous
-Galerkin divergence free setting. cite{tormod_fenics_2017}
+Galerkin and divergence free setting. cite{tormod_fenics_2017}
 
 === References ===
 
