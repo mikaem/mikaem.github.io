@@ -1,0 +1,20 @@
+===== Multiphase =====
+
+I currently supervise two PhD-students, Tormod Landet and Christopher Friedemann,
+that are working on two widely different aspects of two-phase flows. 
+
+Christopher is involved in the "Annulus flow":
+"https://www.ife.no/no/ife/ife_nyheter/2017/flerfasestromning-gjennom-firearig-forskerprosjekt"
+project headed by "IFE": "https://www.ife.no" and with collaboration with
+Imperial College London. The project is sponsored by the Norwegian Research
+Council. We use OpenFOAM to simulate and understand two-phase flows in annulus
+configurations. cite{chris2017}
+
+Tormod is investigating finite element methods for use with two-phase flows. We
+are looking into slope limiting of the velocity field in a discontinuous
+Galerkin divergence free setting. cite{tormod_fenics_2017}
+
+=== References ===
+
+BIBFILE: papers.pub
+

@@ -1,0 +1,35 @@
+#======= Mikael Mortensen =======
+
+#FIGURE: [figs/portrait_large.jpg, width=785]
+
+<img src="figs/portrait_large.jpg" align="right" width=200 style="margin: 0px 0px 0px 10px;">
+
+Welcome to my homepage! I work as an Associate Professor in Fluid Mechanics at the "Department of
+Mathematics, University of Oslo": "http://mn.uio.no/math". My primary interests
+are Computational Fluid Dynamics (CFD) and the many aspects of turbulent fluid
+flows, ranging from physics, modeling, numerical methods, 
+software implementation and applications. I spend part of my time within the
+"4DSpace": "http://www.mn.uio.no/fysikk/english/research/projects/4dspace/"
+strategic research initiative, where we study instabilities and turbulence in
+the polar ionosphere. I am also a Python enthusiast and I use this language as
+often as possible in teaching and scientific computing.   
+
+===== Recent highlights =====
+
+  * 14/8 2017 "Numerical simulations of a sounding rocket in ionospheric plasma: effects of magnetic field on the wake formation and rocket potential.": "http://onlinelibrary.wiley.com/doi/10.1002/2017JA024284/full" accepted for publication in the Journal of Geophysical Research: Space Physics
+  * 24/5 2017 "I presented": "https://pccfd.kaust.edu.sa/speaker?si=4" the "spectralDNS": "spectralDNS.html" project at the "Predictive Complex Computational Fluid Dynamics": "https://pccfd.kaust.edu.sa" conference at KAUST.
+  * 15/3 2017 "A numerical investigation of intrathecal isobaric drug dispersion within the cervical subarachnoid space": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173680" accepted for publication in PLOS ONE.
+  * 1/11 2016 "Preconditioners for Saddle Point Systems with Trace Constraints Coupling 2D and 1D Domains": "http://epubs.siam.org/doi/abs/10.1137/15M1052822?journalCode=sjoce3" published in SIAM Journal on Scientific Computing.
+
+===== News =====
+
+  * 14/8 2017 "Numerical simulations of a sounding rocket in ionospheric plasma: effects of magnetic field on the wake formation and rocket potential.": "http://onlinelibrary.wiley.com/doi/10.1002/2017JA024284/full" accepted for publication in the Journal of Geophysical Research: Space Physics
+  * 19/6 2017 "5th 4DSpace Numerical Workshop": "http://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html" started in Kobe, Japan.
+  * 14/6 2017 Tormod Landet presented "Slope Limiting of Divergence Free Discontinuous Galerkin Vector Fields in the Context of Two-Phase Flows": "http://easychair.org/smart-program/FEniCS%2717/2017-06-14.html" at "FEniCS'17": "https://fenicsproject.org/fenics17/"
+  * 12/6 2017 Diako Darian presented "Kinetic simulation of plasma-object interaction with FEniCS": "http://easychair.org/smart-program/FEniCS%2717/2017-06-12.html" at "FEniCS'17": "https://fenicsproject.org/fenics17/"
+  * 24/5 2017 "I presented": "https://pccfd.kaust.edu.sa/speaker?si=4" the "spectralDNS": "spectralDNS.html" project at the Predictive Complex Computational Fluid Dynamics conference at KAUST.
+  * 12/5 2017 I presented "shenfun": "spectralDNS.html#sec:shenfun" at MekIT'17.
+  * 12/5 2017 Christopher Friedemann presented his work on two-phase annulus flow.
+  * 17/3 2017 My first academic son, Miroslav Kuchta, defended his PhD thesis with flying colors.
+  * 15/3 2017 "A numerical investigation of intrathecal isobaric drug dispersion within the cervical subarachnoid space": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173680" accepted for publication in PLOS ONE.
+

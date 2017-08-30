@@ -1,0 +1,45 @@
+===== Biomedical flows =====
+
+<img src="figs/fenics_logo.png" align="right" width=400 style="margin: 5px 5px 5px 10px;">
+I have been working as an "adjunct research scientist": "http://www.simula.no/people/mikaelmo" at "Simula Research Laboratory":
+"http://www.simula.no". Here I had the great honor to be working with the late
+"Prof. Hans Petter Langtangen": "https://hplgit.com/homepage"
+(cite{Valen-Sendstad2011}, cite{Mortensen2016}, cite{Mortensen2012_transitional}, cite{mortensen_2011_awr}), 
+at the "Center for Biomedical Computing":
+"http://cbc.simula.no/pub/". 
+
+I have contributed quite a bit to the "FEniCS":
+"https://www.fenicsproject.org" project, and the incompressible Navier-Stokes solver "Oasis":
+"https://github.com/mikaem/Oasis" has been developed within the FEniCS framework. The solver has been developed for
+efficiency and it has been found to scale well up to 256 processors on the
+"Abel": "http://www.uio.no/english/services/it/research/hpc/abel/"
+supercomputer. The solver is written entirely in Python, and we
+have shown that it may run as fast and accurate as the low-level finite volume
+C++ solvers OpenFOAM and CDP (Stanford). The Oasis solver is documented in the
+*Computer Physics Communications paper*
+cite{mortensen2015oasis}. 
+
+<img src="figs/scalar_anim.gif" align="right" width=400 style="margin: 5px 5px 5px 10px;">
+The Oasis solver has been used in a range of master theses (see "Teaching":
+"teaching.html#sec:master"),
+and one of these, for my student Per Thomas Haga, led to a paper on injecting
+drugs in the Cerebrospinal fluid cite{haga_2017}. The animation on the right
+show how the injected drug moves up and down inside the CSF channel. It can also
+be sen that, due to the very low diffusivity of the scalar drug, we modelled the
+scalar transport using Lagrangian particle tracking.
+
+I have been working quite a bit together with "Kristian Valen-Sendstad":
+"https://www.simula.no/people/kvs" at Simula, on different aspects of biomedical
+flows. Our simulations on intracranial aneurysms
+cite{Valen-Sendstad2011}, actually reached the headlines of Norway's larges
+newspaper (VG), when we found a correlation between transition
+to turbulence and the risk of aneurysm rupture (more famously known as stroke).
+For this work I performed most of the simulations when still at "FFI":
+"https://www.ffi.no".
+<img src="figs/stroke.jpg" align="right" width=400 style="margin: 5px 5px 5px 10px;">
+
+
+=== References ===
+
+BIBFILE: papers.pub
+

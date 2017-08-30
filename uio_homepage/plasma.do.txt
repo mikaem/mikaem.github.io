@@ -1,0 +1,27 @@
+===== 4DSpace =====
+
+In the strategic research initiative "4DSpace":
+"http://www.mn.uio.no/fysikk/english/research/projects/4dspace/" we study
+instabilities and turbulence in the polar ionosphere with an integrated, multi-scale 4D (3D in space and time) experimental, theoretical, and modelling approach.
+
+Two of my PhD students *Diako Darian* and "Sigvald Marholm":
+"http://www.mn.uio.no/fysikk/english/?vrtx=person-view&uid=sigvaldm" are both
+working under the 4DSpace umbrella, that alltogether count approximately 40
+people. We are focusing on developing unstructured Particle In Cell (PIC) codes with finite
+element and Lagrangian particle methods, within the FEniCS framework.
+
+Darian et. al cite{diako_2017} use PIC simulations of a sounding rocket in
+ionospheric plasma to investigate effects of magnetic field on the wake formation and rocket potential.
+
+<img src="figs/KHmovie2.gif" align="right" width=400 style="margin: 5px 5px 5px 10px;">
+Darian and Mortensen cite{darian2015pseudo} has implemented a spectral MagnetoHydroDynamics
+solver with the Boussinesq approximation for variable densities within the "spectralDNS": "spectralDNS" framework, and use it to study
+Kelvin-Helmholtz instabilities in stratified and unstratified shear layers. 
+
+Miloch, Darian and Mortensen cite{woichiech2017} study the wake potential of a
+dust particle in magnetised plasmas. 
+
+=== References ===
+
+BIBFILE: papers.pub
+

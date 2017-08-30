@@ -1,0 +1,56 @@
+===== Teaching =====
+
+Ath the University of Oslo, Department of Mathematics, I have been teaching the
+folowing courses:
+
+  * "Continuum Mechanics": "http://www.uio.no/studier/emner/matnat/math/MEK2200" 
+  * "Fluid Mechanics": "http://www.uio.no/studier/emner/matnat/math/MEK3230/" 
+  * "Viscous Flow and Turbulence": "http://www.uio.no/studier/emner/matnat/math/MEK4300/"
+  * "Computational Fluid Mechanics": "http://www.uio.no/studier/emner/matnat/math/MEK4470/"
+
+But not at the same time and not every semester.
+
+===== Japan-Norway Partnership  =====
+
+<img src="figs/kobeoslo_logo.jpg" align="right" width=250 style="margin: 5px 5px 5px 10px;">
+The Japanese-Norwegian Partnership in Space Simulations between the University of Oslo and Kobe University provides a unique study opportunity for students interested in space science and numerical modeling. The Kobe-Oslo project is centered on numerical simulations of space related problems, such as interaction between sounding rockets and plasma, cometary environment, asteroids and lunar surfaces, or plasma turbulence. Participating students will learn how to use and create large scale numerical models, run them on supercomputers, and relate their results to ongoing space missions. The workshops are biannual, one in Norway and one in Kobe, Japan. The sixt workshop is coming up 18 September 2017 in Oslo. Picture below from the first workshop in Kobe, in June 2015. 
+
+The Kobe-Oslo project is funded through the UTFORSK 2016 Partnership Programme administered by the Norwegian Centre for International Cooperation in Education (SIU). 
+
+FIGURE: [figs/kobe.jpg, width=800]
+
+===== Students =====
+
+Current and previous students of mine are listed below. 
+
+=== PhD Students ===
+
+  * Kristian Valen-Sendstad "Computational Cerebral Hemodynamics": "http://simula.no/publications/Simula.simula.632" (2008 - 2011)
+  * Magnus Vartdal *Numerical Simulation of Flow Around an Oscillating Circular Cylinder and Development of Level Set Based Numerical Methods for Two-Phase Flows* (2009 - 2013)
+  * Karen Helene Støverud "Relation Between the Chiari I Malformation and Syringomyelia From a Mechanical Perspective": "https://www.simula.no/publications/relation-between-chiari-i-malformation-and-syringomyelia-mechanical-perspective" (2009 - 2014)
+  * Miroslav Kuchta "Preconditioners for Singular Problems and Coupled Problems with Domains of Different Dimensionality": "https://www.simula.no/publications/preconditioners-singular-problems-and-coupled-problems-domains-different-dimensionality" (2012 - 2016)
+  * Diako Darian  (2014 - )
+  * Tormod Landet  (2014 - )
+  * Sigvald Marhol (2014 - )
+  * Christopher Friedemann (2016 - )
+
+=== Master students ===
+
+label{sec:master}
+  * Jørgen Myre "Modeling Turbulent Boundary Layers with Elliptic Relaxation": "https://www.duo.uio.no/handle/10852/10864" (2009 - 2011)
+  * Magnus Vartdal "Numerical modelling of aerosol dispersion inside a rotating aerosol chamber": "https://www.duo.uio.no/handle/10852/10905" (2007 - 2009)  
+  * Adrian Roaldssønn "Analysis of a system of elliptic partial differential equations and its possible boundary conditions when discretized with Hermite and Lagrange elements": "https://www.duo.uio.no/handle/10852/37699"  (2010 - 2012)
+  * Millad Nour "CFD simulations of flow in bent pipe at high Reynolds numbers conditions": "https://www.duo.uio.no/handle/10852/42617" (2013 - 2015)
+  * Ola Hagemann "Cool down of subsea dead-leg with a cold spot - experimental and numerical heat transfer analysis": "https://www.duo.uio.no/handle/10852/42547" (2013 - 2015)
+  * Joakim Bø "Implementation and assessment of subgrid-scale models for large eddy simulations of incompressible turbulent flows": "https://www.duo.uio.no/handle/10852/49307" (2013 - 2015)
+  * Per Thomas Haga "Numeriske simuleringer av adveksjons-dominert skalar-blanding anvendt på CSF-strømning og medikamenttransport": "https://www.duo.uio.no/handle/10852/45371" (2013 - 2015)
+  * Daniel A. Mo Søreide Houshmand "CFD simulations in idealized expanded bifurcation geometry": "https://www.duo.uio.no/handle/10852/49314" (2013 - 2015)
+  * Daniel J. Tarplett "En numerisk analyse av den seismiske bølgeligningen i forskjellige lag med materialer ved bruk av element metoden i fenics": "https://www.duo.uio.no/handle/10852/42549"  (2013 - 2015)
+  * Aslak Bergersen "Investigating the Link Between Patient-specific Morphology and Hemodynamics: Implications for Aneurism Initiation?": "https://www.duo.uio.no/handle/10852/50515" (2114 - 2016)
+  * Jørgen Dyremyhr Tyvand "Computational fluid dynamics simulations of gravity wave flows" (2015 - 2017)
+  * Guttorm Kvaal "Numerical Simulations of Pharmaceutical Particles Depositing in the Human Respiratory System" (2015 - 2017)
+  * Andreas Strøm Slyngstad "Verification and Validation of a Monolithic Fluid-Structure Interaction Solver in FEniCS" (2015 - 2017)
+  * Sebastian Gjertsen "Development of a Verified and Validated Computational Framework for Fluid-Structure Interaction: Investigating Lifting Operators and Numerical Stability" (2015 - 2017)
+  * Anna Piterskaya  (2016 - ) 
+  * Anders Utnes  (2017 - )
+

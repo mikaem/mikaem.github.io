@@ -1,0 +1,37 @@
+===== Research =====
+
+I started my research career studying mixing sensitive reactions in turbulent
+flows, which quickly led me to mathematical models for non-premixed turbulent
+combustion. Since then I have become more and more interested in Computational
+Fluid Dynamics (CFD) and scientific computing. And since turbulence, CFD and scientific
+computing enter into a wide range of different research fields, my research
+topics may seem to be all over the place:-) 
+
+I am involved with plasma physics and
+rocket science through the "4DSpace":
+"http://www.mn.uio.no/fysikk/english/research/projects/4dspace/" research
+initiative at the University of Oslo, where we study instabilities and
+turbulence in the polar ionosphere. "See more": "plasma.html". 
+
+I have been working as an "adjunct research scientist": "https://www.simula.no/people/mikaelmo" at "Simula":
+"https://www.simula.no". Here I worked mostly at the "Center for Biomedical Computing":
+"https://cbc.simula.no/pub/" using "FEniCS": "https://www.fenicsproject.org" to
+study biomedical flows. "See more": "biomedical.html".      
+
+My preoccupation with turbulence and scientific computing has spiked an
+interest in spectral methods, that often are used in state-of-the-art
+Direct Numerical Simulation (DNS) codes for turbulent fluid flows. Combined with
+my interest in Python as an efficient tool for high-performance computing, this
+has led to the "spectralDNS": "https://github.com/spectralDNS" project. "See more": "spectralDNS.html".
+
+I currently supervise two PhD-students, Tormod Landet and Christopher Friedemann,
+that are working on two-phase flows. "See more": "multiphase.html"
+
+If you are interested in more about my different research projects, please
+follow these links for extended information:
+  * "spectralDNS": "spectralDNS.html" 
+  * "Biomedical flows": "biomedical.html"
+  * "Turbulent combustion": "cmc.html"
+  * "4DSpace": "plasma.html"
+  * "Multiphase": "multiphase.html"
+
