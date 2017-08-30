@@ -1,7 +1,7 @@
 ===== Teaching =====
 
-Ath the University of Oslo, Department of Mathematics, I have been teaching the
-folowing courses:
+At the University of Oslo, Department of Mathematics, I have been teaching the
+following courses:
 
   * "Continuum Mechanics": "http://www.uio.no/studier/emner/matnat/math/MEK2200" 
   * "Fluid Mechanics": "http://www.uio.no/studier/emner/matnat/math/MEK3230/" 

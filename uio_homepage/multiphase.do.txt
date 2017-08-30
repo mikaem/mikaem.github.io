@@ -5,7 +5,7 @@ that are working on two widely different aspects of two-phase flows.
 
 Christopher is involved in the "Annulus flow":
 "https://www.ife.no/no/ife/ife_nyheter/2017/flerfasestromning-gjennom-firearig-forskerprosjekt"
-project headed by "IFE": "https://www.ife.no" and with collaboration with
+project headed by "IFE": "https://www.ife.no" and in collaboration with
 Imperial College London. The project is sponsored by the Norwegian Research
 Council. We use OpenFOAM to simulate and understand two-phase flows in annulus
 configurations. cite{chris2017}
