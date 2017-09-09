@@ -21,7 +21,7 @@ Kelvin-Helmholtz instabilities in stratified and unstratified shear layers.
 Miloch, Darian and Mortensen cite{woichiech2017} study the wake potential of a
 dust particle in magnetised plasmas. 
 
-=== References ===
+===== References =====
 
 BIBFILE: papers.pub
 

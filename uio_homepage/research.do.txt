@@ -1,35 +1,31 @@
-===== Research =====
+===== Short Bio =====
 
-I started my research career studying mixing sensitive reactions in turbulent
-flows, which quickly led me to mathematical models for non-premixed turbulent
-combustion. Since then I have become more and more interested in Computational
-Fluid Dynamics (CFD) and scientific computing. And since turbulence, CFD and scientific
-computing enter into a wide range of different research fields, my research
-topics may seem to be all over the place:-) 
+Associate Professor Mikael Mortensen received his PhD in mathematical modeling
+of turbulent reactive flows from "Chalmers University of Technology":
+"http://www.chalmers.se/en/Pages/default.aspx", Sweden in 2005. He then worked for one year
+as a Post-Doctoral research fellow at the University of Sydney, in the world
+leading research group of Prof. Robert W. Bilger at the "School of Aerospace, Mechanical and Mechatronic
+Engineering": "http://web.aeromech.usyd.edu.au/index.php". While in Sydney he
+worked mainly with developing mathematical models for spray combustion, and
+turbulent mixing of flows with multiple injections. Returning to Norway,
+he worked with turbulence modelling and Computational Fluid Dynamics (CFD) for five years at the "Norwegian Defence Research Establishment":
+"https://www.ffi.no", before
+landing his current position as Associate Professor at the "University of Oslo":
+"http://www.uio.no", Norway.
 
-I am involved with plasma physics and
-rocket science through the "4DSpace":
-"http://www.mn.uio.no/fysikk/english/research/projects/4dspace/" research
-initiative at the University of Oslo, where we (I supervise two PhD students
-within this group, Diako Darian and Sigvald Marholm) study instabilities and
-turbulence in the polar ionosphere. "See more": "plasma.html". 
+Dr. Mortensen is interested in CFD and the many aspects of turbulent fluid
+flows, ranging from physics, modeling, numerical methods, software implementation and applications. 
+And since such topics as turbulence, CFD and scientific computing are relevant
+for a wide range of
+different research fields, his later research topics venture into fields
+such as plasma physics, biomedical flows, multiphase and numerical analysis. 
+In recent years he has been working extensively with finite element (FEniCS) and spectral codes for Direct
+Numerical Simulation (DNS) of turbulence, with codes preferably written in the high-level Python language.
 
-I have been working as an "adjunct research scientist": "https://www.simula.no/people/mikaelmo" at "Simula":
-"https://www.simula.no". Here I worked mostly at the "Center for Biomedical Computing":
-"https://cbc.simula.no/pub/" using "FEniCS": "https://www.fenicsproject.org" to
-study biomedical flows. "See more": "biomedical.html".      
 
-My preoccupation with turbulence and scientific computing has spiked an
-interest in spectral methods, that often are used in state-of-the-art
-Direct Numerical Simulation (DNS) codes for turbulent fluid flows. Combined with
-my interest in Python as an efficient tool for high-performance computing, this
-has led to the "spectralDNS": "https://github.com/spectralDNS" project. "See more": "spectralDNS.html".
-
-I currently supervise two PhD-students, Tormod Landet and Christopher Friedemann,
-that are working on two-phase flows. "See more": "multiphase.html".
-
-And finally, through my old PhD student Miroslav Kuchta, I have ventured into numerical
-analysis. "See more": "numerical.html".
+# #if FORMAT in ('html')
+<hr>
+# #endif
 
 If you are interested in learning more about my different research projects, please
 follow the links in the Research tab at the top of this page for extended information.

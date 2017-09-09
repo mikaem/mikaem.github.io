@@ -8,7 +8,7 @@ done
 
 rm -f .*_collection *~
 
-#scp *.html mikaem@abacus-as.uio.no:~/www_docs/
+scp *.html mikaem@abacus-as.uio.no:~/www_docs/
 #scp assets/*.css mikaem@abacus-as.uio.no:~/www_docs/assets/
 #scp figs/*.* mikaem@abacus-as.uio.no:~/www_docs/figs/
 

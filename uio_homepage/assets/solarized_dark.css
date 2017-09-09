@@ -1,5 +1,5 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|openwebicons);
-
+@import url(https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Tangerine|Inconsolata|Droid+Sans);
 
 body {
     font: 80%  helvetica-neue, helvetica, arial, san-serif, verdana, 'droid sans';
@@ -109,7 +109,7 @@ ul {
 }
 
 h1 {
-  font-family: Comic sans MS, verdana, helvetica-neue, helvetica, arial;
+  #font-family: helvetica-neue, "Averia Sans Libre", "Comic Sans MS", helvetica, verdana, arial;
   color: #2aa198;
   margin: 0.9%;
   margin-left: 0.9%;
@@ -142,7 +142,7 @@ a:hover { color: #2aa198; }
     width: 100%;
     max-width: 850px;
     box-shadow: 5px 5px 2.5px #002731;
-    background-image: url(https://raw.githubusercontent.com/hplgit/doconce/master/bundled/html_styles/style_solarized_box/grid.png);
+    #background-image: url(https://raw.githubusercontent.com/hplgit/doconce/master/bundled/html_styles/style_solarized_box/grid.png);
     position: relative;
     background-position: 0.5% 0;
     background-repeat: repeat-x;
