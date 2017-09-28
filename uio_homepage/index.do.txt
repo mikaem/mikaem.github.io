@@ -23,16 +23,19 @@ often as possible in teaching and scientific computing.
 
 ===== News =====
 
+  * 20/9 2017 *Wake Potential of a Dust Particle in Magnetised Plasmas*, W. J. Miloch, D. Darian and M. Mortensen accepted for publication in Physica Scripta
+  * 18/9 2017 "6th 4DSpace Numerical Workshop": "http://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html" started in Oslo.
   * 8/9 2017 Andreas Slyngstad defended his master thesis *Verification and Validation of a Monolithic Fluid-Structure Interaction Solver in FEniCS*.
   * 14/8 2017 "Numerical simulations of a sounding rocket in ionospheric plasma: effects of magnetic field on the wake formation and rocket potential.": "http://onlinelibrary.wiley.com/doi/10.1002/2017JA024284/full" accepted for publication in the Journal of Geophysical Research: Space Physics
   * 19/6 2017 "5th 4DSpace Numerical Workshop": "http://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html" started in Kobe, Japan.
   * 19/6 2017 Guttorm Kvaal defended his master thesis *Numerical Simulations of Pharmaceutical Particles Depositing in the Human Respiratory System*.
+  * 15/6 2017 Jørgen Dyremyhr Tyvand defended his master thesis *Computational fluid dynamics simulations of gravity wave flows*
   * 14/6 2017 Tormod Landet presented "Slope Limiting of Divergence Free Discontinuous Galerkin Vector Fields in the Context of Two-Phase Flows": "http://easychair.org/smart-program/FEniCS%2717/2017-06-14.html" at "FEniCS'17": "https://fenicsproject.org/fenics17/"
   * 12/6 2017 Diako Darian presented "Kinetic simulation of plasma-object interaction with FEniCS": "http://easychair.org/smart-program/FEniCS%2717/2017-06-12.html" at "FEniCS'17": "https://fenicsproject.org/fenics17/"
   * 29/5 2017 Sebastian Gjertsen defended his master thesis *Development of a Verified and Validated Computational Framework for Fluid-Structure Interaction: Investigating Lifting Operators and Numerical Stability*.
   * 24/5 2017 "I presented": "https://pccfd.kaust.edu.sa/speaker?si=4" the "spectralDNS": "spectralDNS.html" project at the Predictive Complex Computational Fluid Dynamics conference at KAUST.
   * 12/5 2017 I presented "shenfun": "spectralDNS.html#sec:shenfun" at MekIT'17.
   * 12/5 2017 Christopher Friedemann presented his work on two-phase annulus flow at MekIT'17. 
-  * 17/3 2017 My first academic son, Miroslav Kuchta, defended his PhD thesis with flying colors.
+  * 17/3 2017 My first academic son, Miroslav Kuchta, defended his PhD thesis with flying colors!
   * 15/3 2017 "A numerical investigation of intrathecal isobaric drug dispersion within the cervical subarachnoid space": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173680" accepted for publication in PLOS ONE.
 

@@ -5,8 +5,7 @@ thesis, and subsequent year as Post Doc at the University of Sydney, Australia,
 I worked mostly with the "Conditional Moment Closure":
 "http://www.sciencedirect.com/science/article/pii/S0360128599000064" (CMC), a
 state-of-the-art model that is used to capture turbulence-chemistry
-interactions (e.g., cite{mortensen_ces}, cite{mortensen_ctm}). From 2005-2006 I had the great honour of working with Prof. Robert
-W. Bilger as a Post Doctoral research fellow at the University of Sydney,
+interactions (e.g., cite{mortensen_ces}, cite{mortensen_ctm}). From 2005-2006 I had the great honour of working with Prof. Robert W. Bilger as a Post Doctoral research fellow at the University of Sydney,
 Australia. In Sydney I worked on CMC for spray combustion cite{Mortensen_Bilger} and a
 version of my consistent turbulent mixer model
 cite{mortensen_pof} that I have called the
@@ -18,7 +17,7 @@ Kops": "https://mie.umass.edu/faculty/stephen-de-bruyn-kops", using very large D
 turbulence-chemistry models cite{de2005conditional}, cite{cha2006direct},
 cite{mortensen2007direct}. 
 
-===== References =====
+=== References ===
 
 BIBFILE: papers.pub
 
