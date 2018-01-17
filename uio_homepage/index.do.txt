@@ -16,7 +16,7 @@ often as possible in teaching and scientific computing.
 
 ===== Recent highlights =====
 
-  * 6/11 2017 I am invited to talk at the "I3MS Seminar Series of the Institute for Modeling and Simulation, RWTH Aachen University": "https://www.aices.rwth-aachen.de/en/media-and-seminars/events/mortensen-seminar".
+  * 6/11 2017 I talked at the "I3MS Seminar Series of the Institute for Modeling and Simulation, RWTH Aachen University": "https://www.aices.rwth-aachen.de/en/media-and-seminars/events/mortensen-seminar".
   * 14/8 2017 "Numerical simulations of a sounding rocket in ionospheric plasma: effects of magnetic field on the wake formation and rocket potential.": "http://onlinelibrary.wiley.com/doi/10.1002/2017JA024284/full" accepted for publication in the Journal of Geophysical Research: Space Physics
   * 24/5 2017 "I presented": "https://pccfd.kaust.edu.sa/speaker?si=4" the "spectralDNS": "spectralDNS.html" project at the "Predictive Complex Computational Fluid Dynamics": "https://pccfd.kaust.edu.sa" conference at KAUST.
   * 15/3 2017 "A numerical investigation of intrathecal isobaric drug dispersion within the cervical subarachnoid space": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173680" accepted for publication in PLOS ONE.
