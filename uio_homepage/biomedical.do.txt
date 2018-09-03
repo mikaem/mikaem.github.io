@@ -30,12 +30,26 @@ I have been working quite a bit together with "Kristian Valen-Sendstad":
 "https://www.simula.no/people/kvs" at Simula, on different aspects of biomedical
 flows. Our simulations on intracranial aneurysms
 cite{Valen-Sendstad2011}, actually reached the headlines of Norway's larges
-newspaper (VG), when we found a correlation between transition
+newspaper (VG) ref{vg}, when we found a correlation between transition
 to turbulence and the risk of aneurysm rupture (more famously known as stroke).
-<img src="figs/stroke.jpg" align="right" width=400 style="margin: 5px 5px 5px 10px;">
 For this work I performed most of the simulations when still at "FFI":
-"https://www.ffi.no".
+"https://www.ffi.no". 
 
+FIGURE: [figs/stroke.jpg, width=400] Headlines in norwegian newspaper VG, 5/11-2011. label{vg}
+
+More recently we have been studying transition and
+mesh sensitivity in the FDA nozzle benchmark. In cite{Bergersen2018}
+we use both regular CFD and linear stability analysis to show that care must be 
+taken when designing a CFD benchmark. Transition to turbulence can only
+come from a seed, or perturbation, and an ideal case like the FDA
+benchmark should not transtition at all unless some noise is added to the
+system. Figure ref{lsa} is showing an unstable eigenmode in the FDA
+bechmark, showing that transition should in deed occur at the Reynolds
+number=3500. Here I have conducted the stability simulations using the
+"dog":"http://users.monash.edu.au/~bburn/semtex.html" linear stability
+analysis software package.
+
+FIGURE: [figs/rotated_separated_rainbow.png, width=800] Linear stability analysis of the FDA benchmark. Showing the most unstable eigenmode. label{lsa}
 
 ===== References =====
 

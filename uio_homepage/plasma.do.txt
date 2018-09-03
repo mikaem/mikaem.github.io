@@ -9,7 +9,7 @@ Two of my PhD students *Diako Darian* and "Sigvald Marholm":
 working under the 4DSpace umbrella, that alltogether count approximately 40
 people. We are focusing on developing unstructured Particle In Cell (PIC) codes with finite
 element and Lagrangian particle methods, within the FEniCS framework. See Marholm et al. 
-cite{marholm2018}.
+cite{marholm2018} and the Particles in UNstructured Cells code "PUNC": "https://github.com/puncproject".
 
 In the paper by Darian et al. cite{diako_2017} we use PIC simulations of a sounding rocket in
 ionospheric plasma to investigate effects of magnetic field on the wake formation and rocket potential. In the paper by Miloch et al. cite{Miloch2018} we study dynamic ion shadows behind finite-sized objects in collisionless magnetized plasma flows.

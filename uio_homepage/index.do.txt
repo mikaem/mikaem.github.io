@@ -16,9 +16,12 @@ often as possible in teaching and scientific computing.
 
 ===== Recent highlights =====
 
+  * 30/8 2018 "The FDA Nozzle Benchmark: In Theory There Is No Difference Between Theory and Practice, But in Practice There Is" accepted for publication in "International Journal for Numerical Methods in Biomedical Engineering": "https://onlinelibrary.wiley.com/journal/20407947"
+  * 2/8 2018 "On the Singular Neumann Problem in Linear Elasticity": "https://arxiv.org/abs/1609.09425" accepted for publication in "Numerical Linear Algebra with Applications": "https://onlinelibrary.wiley.com/journal/10991506"
   * 2/7 2018 "Dynamic ion shadows behind finite-sized objects in collisionless magnetized plasma flows": "http://iopscience.iop.org/article/10.1088/1367-2630/aad066" accepted for publication by the New Journal of Physics 
-  * 27/6 2018 "Preconditioning trace coupled 3$d$-1$d$ systems using fractional Laplacian": "https://arxiv.org/abs/1612.03574" accepted for publication by Numerical Methods for Partial Differential Equations
+  * 27/6 2018 "Preconditioning trace coupled 3d-1d systems using fractional Laplacian": "https://arxiv.org/abs/1612.03574" accepted for publication by Numerical Methods for Partial Differential Equations
   * 6/11 2017 I talked at the "I3MS Seminar Series of the Institute for Modeling and Simulation, RWTH Aachen University": "https://www.aices.rwth-aachen.de/en/media-and-seminars/events/mortensen-seminar".
+  * 20/9 2017 "Wake Potential of a Dust Particle in Magnetised Plasmas": "http://stacks.iop.org/1402-4896/92/i=11/a=114006", W. J. Miloch, D. Darian and M. Mortensen accepted for publication in Physica Scripta
   * 14/8 2017 "Numerical simulations of a sounding rocket in ionospheric plasma: effects of magnetic field on the wake formation and rocket potential.": "http://onlinelibrary.wiley.com/doi/10.1002/2017JA024284/full" accepted for publication by the Journal of Geophysical Research: Space Physics
   * 24/5 2017 "I presented": "https://pccfd.kaust.edu.sa/speaker?si=4" the "spectralDNS": "spectralDNS.html" project at the "Predictive Complex Computational Fluid Dynamics": "https://pccfd.kaust.edu.sa" conference at KAUST.
   * 15/3 2017 "A numerical investigation of intrathecal isobaric drug dispersion within the cervical subarachnoid space": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173680" accepted for publication in PLOS ONE.
@@ -26,15 +29,18 @@ often as possible in teaching and scientific computing.
 
 ===== News =====
 
+  * 8/8 - 10/8 2018 Christophe Henry, Post Doc at Observatoire de la Cote d'Azur, Laboratoire Lagrange is visiting for 3 days.
+  * 8/8 2018 Documentation for "mpi4py-fft":"https://bitbucket.org/mpi4py/mpi4py-fft" published on "readthedocs": "https://mpi4py-fft.readthedocs.io/en/latest/"
+  * 2/8 2018 "On the Singular Neumann Problem in Linear Elasticity": "https://arxiv.org/abs/1609.09425" accepted for publication in "Numerical Linear Algebra with Applications": "https://onlinelibrary.wiley.com/journal/10991506"
   * 6/7 2018 Particles in UNstructured Cells "PUNC": "https://github.com/puncproject/PUNC" now openly available at github
   * 17/6 2018 "7th 4DSpace Numerical Workshop": "http://www.mn.uio.no/fysikk/english/research/projects/4dspace/education/04_japan-norway.html" started in Kobe, Japan.
   * 7/6 2018 Anna Piterskaya defended her master thesis *Spectral investigation of annular flow*
-  * 30/6 2018 Richard presented at "SCTC'18":"http://www.org.kobe-u.ac.jp/15sctc/index.html" conference. Title "Impact of miniaturized fixed-bias Multi-Needle Langmuir Probes on CubeSats", with Richard Marchand, Sigvald Marholm, Diako Darian and Wojciech Miloch 
+  * 30/6 2018 Richard presented at "SCTC'18":"http://www.org.kobe-u.ac.jp/15sctc/index.html" conference. Title *Impact of miniaturized fixed-bias Multi-Needle Langmuir Probes on CubeSats*, with Richard Marchand, Sigvald Marholm, Diako Darian and Wojciech Miloch 
   * 4/6 2018 Peter Killingstad defended his master thesis *A study of dead water resistance Reynolds Averaged Navier Stokes simulations of a barge moving in stratified waters*
   * 1/6 2018 Karl Jacobsen defended his master thesis *The dead water phenomenon - A computational fluid dynamics study*
   * 26/4 2018 New preprint published "Fast parallel multidimensional FFT using advanced MPI": "https://arxiv.org/abs/1804.09536" by Lisandro Dalcin, Mikael Mortensen and David E. Keyes
   * 25/4 2018 Submitted proposal to FRINATEK and ROMFORSKNING
-  * 15/2 2018 Sigvald Marholm presented a poster for the "FEniCS'18": "https://fenicsproject.org/fenics18/" conference "An Application of FEniCS: Particle–Mesh Modelling of Instruments in Ionospheric Plasma", with Richard Marchand, Sigvald Marholm, Diako Darian and Wojciech Miloch 
+  * 15/2 2018 Sigvald Marholm presented a poster for the "FEniCS'18": "https://fenicsproject.org/fenics18/" conference *An Application of FEniCS: Particle–Mesh Modelling of Instruments in Ionospheric Plasma*, with Richard Marchand, Sigvald Marholm, Diako Darian and Wojciech Miloch 
   * 19/1 2018 Anders Utnes defended his master thesis *Computational Analysis of a Drag reducing Cone Grid - A finite volume simulation of the gecko's aerodynamic skin*.
   * 23/10 2017 I presented "shenfun - automating the spectral Galerkin method": "http://slides.com/mikaelmortensen/deck-9-11" at the "International Conference on Computational Science and Engineering": "https://cseconf2017.simula.no" 
   * 20/9 2017 "Wake Potential of a Dust Particle in Magnetised Plasmas": "http://stacks.iop.org/1402-4896/92/i=11/a=114006", W. J. Miloch, D. Darian and M. Mortensen accepted for publication in Physica Scripta

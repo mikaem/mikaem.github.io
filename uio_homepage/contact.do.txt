@@ -22,9 +22,9 @@ Blindern <linebreak>
 Norway <linebreak>
 
 _Office:_ At UiO <linebreak>
-Ullevål stadion  <linebreak> 
-Sognsveien 77 B  <linebreak>
-0855 OSLO <linebreak>
+Nils Henrik Abel building, room 906  <linebreak> 
+Moltke Moe's vei 35  <linebreak>
+0371 OSLO <linebreak>
 
 _GitHub user:_ `mikaem`
 
