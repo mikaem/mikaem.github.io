@@ -2,7 +2,7 @@
 
 My (now finished) PhD student Miroslav Kuchta has been looking at numerical methods to solve
 saddle point systems arising from trace constraints coupling 2D and 1D domains,
-or 3D and 1D domains cite{kuchta2016} cite{kuchta2016preconditioning}. 
+or 3D and 1D domains cite{kuchta2016} cite{kuchta2016preconditioning} cite{kuchta15}. 
 
 We have also been studying the singular Neumann problem of linear elasticity
 cite{kuchta2016singular}.

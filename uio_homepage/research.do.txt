@@ -1,5 +1,6 @@
 ===== Short Bio =====
 
+<img src="https://rawgit.com/spectralDNS/spectralutilities/master/movies/isotropic_cropped.gif" align="right" width=300 style="margin: 5px 5px 5px 10px;" title="Isotropic turbulence computed using my spectralDNS code">
 Associate Professor Mikael Mortensen received his PhD in mathematical modeling
 of turbulent reactive flows from "Chalmers University of Technology":
 "http://www.chalmers.se/en/Pages/default.aspx", Sweden in 2005. He then worked for one year
@@ -21,7 +22,6 @@ different research fields, his later research topics venture into fields
 such as plasma physics, biomedical flows, multiphase and numerical analysis. 
 In recent years he has been working extensively with finite element (FEniCS) and spectral codes for Direct
 Numerical Simulation (DNS) of turbulence, with codes preferably written in the high-level Python language.
-
 
 # #if FORMAT in ('html')
 <hr>

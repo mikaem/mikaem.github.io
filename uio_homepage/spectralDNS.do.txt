@@ -6,11 +6,11 @@ implementing high-performance flow solvers in "Python": "https://www.python.org"
 high-level programming language. The project is supported through several grants from "King
 Abdullahs University of Science and Technology": "https://www.hpc.kaust.edu.sa",
 granting access to some of the world's largest supercomputers. The work has
-been presented at several conferences and as invited talks 
+been presented at several conferences and as invited talks
 
-  * "I3MS Seminar Series of the Institute for Modeling and Simulation, 6 Nov 2017 RWTH AAchen University": "https://www.aices.rwth-aachen.de/en/media-and-seminars/events/mortensen-seminar" 
+  * "I3MS Seminar Series of the Institute for Modeling and Simulation, 6 Nov 2017 RWTH AAchen University": "https://www.aices.rwth-aachen.de/en/media-and-seminars/events/mortensen-seminar"
   * "Predictive Complex Computational Fluid Dynamics, KAUST, May 2017": "https://pccfd.kaust.edu.sa/speaker?si=4"
-  * "MekIT'17 National Conference on computational Mechanics, Trondheim, May 2017": "http://arxiv.org/abs/1708.03188" 
+  * "MekIT'17 National Conference on computational Mechanics, Trondheim, May 2017": "http://arxiv.org/abs/1708.03188"
   * "EuroScipy, Cambridge, August 2015": "https://www.euroscipy.org/2015/schedule/presentation/6/"
 
 # #if FORMAT in ('html')
@@ -21,7 +21,7 @@ The *spectralDNS* project on github contains several repositories, each represen
 ===== spectralDNS =====
 
 <img src="https://cdn.rawgit.com/spectralDNS/spectralutilities/d275db70/figures/strong_scaling_pencil_col.png" align="right" width=400 style="margin: 5px 5px 5px 10px;">
-The "https://github.com/spectralDNS/spectralDNS": "https://github.com/spectralDNS/spectralDNS" repository is home to several different pseudo-spectral Navier-Stokes and MagnetoHydroDynamics solvers. Most solvers are for triply periodic domains. The simplest possible Navier-Stokes solver is described by    
+The "https://github.com/spectralDNS/spectralDNS": "https://github.com/spectralDNS/spectralDNS" repository is home to several different pseudo-spectral Navier-Stokes and MagnetoHydroDynamics solvers. Most solvers are for triply periodic domains. The simplest possible Navier-Stokes solver is described by
 "Mortensen and Langtangen": "http://arxiv.org/pdf/1602.03638v1.pdf" cite{Mortensen2016}, who show that a highly efficient solver can be created using no more than 100 lines of code, using nothing more than standard
 tools like *Numpy* and *MPI for Python*. The DNS solver has been tested for a
 transitional Taylor-Green vortex using a computational box of size
@@ -29,7 +29,7 @@ transitional Taylor-Green vortex using a computational box of size
 A state-of-the-art spectral channel flow solver that is making extensive use of *shenfun*, has been described by Mortensen cite{mortensen2017spectral}. Turbulent flow at $Re_{\tau}=2000$ is shown in the movie below.
 
 #FIGURE: [https://cdn.rawgit.com/spectralDNS/spectralutilities/d275db70/movies/Re2000_5.gif, width=600]
-FIGURE: [figs/Re2000_5.gif, width=600]
+FIGURE: [https://rawgit.com/spectralDNS/spectralutilities/master/movies/Re2000_cropped.gif, width=600]
 
 ===== Shenfun =====
 
@@ -43,11 +43,11 @@ are represented through weak variational forms and solved using efficient direct
 solvers where available. MPI decomposition is achieved through the "mpi4py-fft":
 "https://bitbucket.org/mpi4py/mpi4py-fft" module, and all developed solver may,
 with no additional effort, be run on supercomputers using thousands of
-processors. 
+processors.
 
-An introduction to *shenfun* is given in cite{shenfun}.
+An introduction to *shenfun* is given in cite{shenfun}, on "readthedocs": "https://shenfun.readthedocs.io"
+and the recent paper cite{mortensen_joss}.
 
 ===== References =====
 
 BIBFILE: papers.pub
-

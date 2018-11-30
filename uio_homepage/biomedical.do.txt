@@ -4,9 +4,9 @@
 I have been working from 2012-2016 as an "adjunct research scientist": "http://www.simula.no/people/mikaelmo" at "Simula Research Laboratory":
 "http://www.simula.no". Here I had the great honor to be working with the late
 "Prof. Hans Petter Langtangen": "https://hplgit.com/homepage"
-(cite{Valen-Sendstad2011}, cite{Mortensen2016}, cite{Mortensen2012_transitional}, cite{mortensen_2011_awr}), 
+(cite{Valen-Sendstad2011}, cite{Mortensen2016}, cite{Mortensen2012_transitional}, cite{mortensen_2011_awr}),
 at the "Center for Biomedical Computing":
-"http://cbc.simula.no/pub/". 
+"http://cbc.simula.no/pub/".
 
 I have contributed quite a bit to the "FEniCS":
 "https://www.fenicsproject.org" project, and the incompressible Navier-Stokes solver "Oasis":
@@ -33,13 +33,13 @@ cite{Valen-Sendstad2011}, actually reached the headlines of Norway's larges
 newspaper (VG) ref{vg}, when we found a correlation between transition
 to turbulence and the risk of aneurysm rupture (more famously known as stroke).
 For this work I performed most of the simulations when still at "FFI":
-"https://www.ffi.no". 
+"https://www.ffi.no".
 
 FIGURE: [figs/stroke.jpg, width=400] Headlines in norwegian newspaper VG, 5/11-2011. label{vg}
 
 More recently we have been studying transition and
 mesh sensitivity in the FDA nozzle benchmark. In cite{Bergersen2018}
-we use both regular CFD and linear stability analysis to show that care must be 
+we use both regular CFD and linear stability analysis to show that care must be
 taken when designing a CFD benchmark. Transition to turbulence can only
 come from a seed, or perturbation, and an ideal case like the FDA
 benchmark should not transtition at all unless some noise is added to the
@@ -54,4 +54,3 @@ FIGURE: [figs/rotated_separated_rainbow.png, width=800] Linear stability analysi
 ===== References =====
 
 BIBFILE: papers.pub
-
