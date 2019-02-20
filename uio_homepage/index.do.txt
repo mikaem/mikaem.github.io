@@ -16,6 +16,8 @@ often as possible in teaching and scientific computing.
 
 ===== Recent highlights =====
 
+  * 20/2 2019 "Fast parallel multidimensional FFT using advanced MPI": "https://arxiv.org/abs/1804.09536" by Lisandro Dalcin, Mikael Mortensen and David E. Keyes, accepted for publication by "The Journal of Parallel and Distributed Computing":"https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing".
+  * 15/2 2019 Two months after being released on conda-forge "mpi4py-fft": "https://bitbucket.org/mpi4py/mpi4py-fft" has been downloaded more than "10,000 times!": "https://anaconda.org/conda-forge/mpi4py-fft".
   * 20/11 2018 "Shenfun: High performance spectral Galerkin computing platform": "https://joss.theoj.org/papers/43f64b8a0ef42408c72acead37717ec6" by M. Mortensen, accepted for publication in the Journal of Open Source Software.
   * 30/8 2018 "The FDA Nozzle Benchmark: In Theory There Is No Difference Between Theory and Practice, But in Practice There Is":"https://onlinelibrary.wiley.com/doi/full/10.1002/cnm.3150" accepted for publication in "International Journal for Numerical Methods in Biomedical Engineering": "https://onlinelibrary.wiley.com/journal/20407947"
   * 2/8 2018 "On the Singular Neumann Problem in Linear Elasticity": "https://onlinelibrary.wiley.com/doi/full/10.1002/nla.2212" accepted for publication in "Numerical Linear Algebra with Applications": "https://onlinelibrary.wiley.com/journal/10991506"
@@ -28,8 +30,8 @@ often as possible in teaching and scientific computing.
 
 ===== News =====
 
-  * 3/1 2019 "Shenfun": "https://github.com/spectralDNS/shenfun" can now be used for two non-periodic directions.
-  * 20/12 2018 It is now possible to solve equations coupled and implicit in "Shenfun": "https://github.com/spectralDNS/shenfun".
+  * 31/1 2019 Diako Darian has submitted his PhD thesis!
+  * 3/1 2019 "Shenfun": "https://github.com/spectralDNS/shenfun" can now be used for two non-periodic directions. It is also now possible to solve coupled equations implicitly. See "Stokes demo": "https://github.com/spectralDNS/shenfun/blob/master/demo/Stokes.py".
   * 14/12 2018 "4DSpace": "https://www.mn.uio.no/fysikk/english/research/projects/4dspace/" extension approved by the faculty!
   * 30/11 2018 "mpi4py-fft": "https://anaconda.org/conda-forge/mpi4py-fft" is now available for download from the "conda-forge": "https://conda-forge.org" channel.
   * 20/11 2018 "Shenfun: High performance spectral Galerkin computing platform": "https://joss.theoj.org/papers/43f64b8a0ef42408c72acead37717ec6" by M. Mortensen, accepted for publication in the Journal of Open Source Software.
