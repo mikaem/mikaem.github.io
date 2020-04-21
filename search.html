@@ -10,14 +10,14 @@
   <title>Search the site</title>
   <meta name="description" content="        ">
 
-  <link rel="canonical" href="http://folk.uio.no/mikaem/search">
-  <link rel="alternate" type="application/rss+xml" title="Professor Mikael Mortensen" href="http://folk.uio.no/mikaem/feed.xml">
+  <link rel="canonical" href="https://mikaem.github.io/search">
+  <link rel="alternate" type="application/rss+xml" title="Professor Mikael Mortensen" href="https://mikaem.github.io/feed.xml">
 
-  <meta property="og:url"         content="http://folk.uio.no/mikaem/search" />
+  <meta property="og:url"         content="https://mikaem.github.io/search" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Search the site" />
 <meta property="og:description" content="        " />
-<meta property="og:image"       content="http://folk.uio.no/mikaem/images/portrait_large.jpg" />
+<meta property="og:image"       content="https://mikaem.github.io/images/portrait_large.jpg" />
 
 <meta name="twitter:card" content="summary">
 
@@ -26,10 +26,10 @@
   {
   "@context": "http://schema.org",
   "@type": "NewsArticle",
-  "mainEntityOfPage": "http://folk.uio.no/mikaem/search",
+  "mainEntityOfPage": "https://mikaem.github.io/search",
   "headline": "Search the site",
-  "datePublished": "2020-04-21T13:08:23+02:00",
-  "dateModified": "2020-04-21T13:08:23+02:00",
+  "datePublished": "2020-04-21T13:44:59+02:00",
+  "dateModified": "2020-04-21T13:44:59+02:00",
   "description": "        ",
   "author": {
     "@type": "Person",
@@ -40,21 +40,21 @@
     "name": "Data 100 at UC Berkeley",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://folk.uio.no/mikaem",
+      "url": "https://mikaem.github.io",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "http://folk.uio.no/mikaem",
+    "url": "https://mikaem.github.io",
     "height": 60,
     "width": 60
   }
 }
 
   </script>
-  <link rel="stylesheet" href="/mikaem/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
 
   <!-- <link rel="manifest" href="/manifest.json"> -->
@@ -64,7 +64,7 @@
   <meta name="theme-color" content="#233947">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/mikaem/images/logo/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/logo/favicon.ico">
 
   <!-- MathJax Config -->
   <!-- Allow inline math using $ and automatically break long math lines -->
@@ -112,7 +112,7 @@ initFunction = function(myfunc) {
 
   <!-- Define some javascript variables that will be useful in other javascript -->
   <script>
-    const site_basename = '/mikaem';
+    const site_basename = '';
   </script>
 
   <!-- Add AnchorJS to let headers be linked -->
@@ -189,7 +189,7 @@ initFunction(findInputCells);
 
 const thebelabCellButton = id =>
   `<a id="thebelab-cell-button-${id}" class="btn thebebtn o-tooltip--left" data-tooltip="Interactive Mode">
-    <img src="/mikaem/assets/images/edit-button.svg" alt="Start interactive mode">
+    <img src="/assets/images/edit-button.svg" alt="Start interactive mode">
   </a>`
 
 
@@ -344,17 +344,17 @@ initFunction(initToc);
 
 
   <!-- Google analytics -->
-  <script src="/mikaem/assets/js/ga.js" async></script>
+  <script src="/assets/js/ga.js" async></script>
 
   <!-- Clipboard copy button -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script>
 
   <!-- Load custom website scripts -->
-  <script src="/mikaem/assets/js/scripts.js" async></script>
+  <script src="/assets/js/scripts.js" async></script>
 
   <!-- Load custom user CSS and JS  -->
-  <script src="/mikaem/assets/custom/custom.js" async></script>
-  <link rel="stylesheet" href="/mikaem/assets/custom/custom.css">
+  <script src="/assets/custom/custom.js" async></script>
+  <link rel="stylesheet" href="/assets/custom/custom.css">
 
   <!-- Update interact links w/ REST param, is defined in includes so we can use templates -->
   
@@ -454,7 +454,7 @@ initFunction(initQuery);
  */
 const clipboardButton = id =>
   `<a id="copy-button-${id}" class="btn copybtn o-tooltip--left" data-tooltip="Copy" data-clipboard-target="#${id}">
-    <img src="/mikaem/assets/images/copy-button.svg" alt="Copy to clipboard">
+    <img src="/assets/images/copy-button.svg" alt="Copy to clipboard">
   </a>`
 
 // Clears selected text since ClipboardJS will select the text when copying
@@ -608,7 +608,7 @@ printContent = () => {
     printJS({
         printable: 'textbook_content',
         type: 'html',
-        css: "/mikaem/assets/css/styles.css",
+        css: "/assets/css/styles.css",
         scanStyles: false,
         targetStyles: ["*"],
         ignoreElements: ignoreAssistList
@@ -632,7 +632,7 @@ initFunction(initPrint)
 
 
 <nav id="js-sidebar" class="c-textbook__sidebar">
-  <a href="https://www.mn.uio.no/math/english/people/aca/mikaem/"><img src="/mikaem/images/portrait_large.jpg" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
+  <a href="https://www.mn.uio.no/math/english/people/aca/mikaem/"><img src="/images/portrait_large.jpg" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
   <h2 class="c-sidebar__title">Professor Mikael Mortensen</h2>
   <ul class="c-sidebar__chapters">
     
@@ -646,7 +646,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/intro.html"
+          href="/intro.html"
         >
           
           Home
@@ -667,7 +667,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/research.html"
+          href="/research/research.html"
         >
           
           Short Bio
@@ -688,7 +688,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/cv.html"
+          href="/cv.html"
         >
           
           CV
@@ -730,7 +730,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/contact.html"
+          href="/contact.html"
         >
           
           Contact
@@ -759,7 +759,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/spectraldns.html"
+          href="/research/spectraldns.html"
         >
           
           SpectralDNS
@@ -780,7 +780,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/biomedical.html"
+          href="/research/biomedical.html"
         >
           
           Biomedical Flows
@@ -801,7 +801,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/cmc.html"
+          href="/research/cmc.html"
         >
           
           Turbulent Combustion
@@ -822,7 +822,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/plasma.html"
+          href="/research/plasma.html"
         >
           
           4DSpace
@@ -843,7 +843,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/numerical.html"
+          href="/research/numerical.html"
         >
           
           Numerical methods
@@ -864,7 +864,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/research/multiphase.html"
+          href="/research/multiphase.html"
         >
           
           Multiphase flow
@@ -889,7 +889,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/resources/codes.html"
+          href="/resources/codes.html"
         >
           
           Codes
@@ -914,7 +914,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/teaching/teaching.html"
+          href="/teaching/teaching.html"
         >
           
           Courses
@@ -935,7 +935,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/teaching/japan.html"
+          href="/teaching/japan.html"
         >
           
           Japan-Norway partnership program
@@ -956,7 +956,7 @@ initFunction(initPrint)
       
       <li class="c-sidebar__chapter">
         <a class="c-sidebar__entry "
-          href="/mikaem/teaching/students.html"
+          href="/teaching/students.html"
         >
           
           Students
@@ -995,7 +995,7 @@ initFunction(initPrint)
     <nav class="onthispage">
     </nav>
   </aside>
-  <a href="/mikaem/search.html" class="topbar-right-button" id="search-button"><i class="fa fa-search"></i></a>
+  <a href="/search.html" class="topbar-right-button" id="search-button"><i class="fa fa-search"></i></a>
 </div>
 
       <main class="c-textbook__page" tabindex="-1">
@@ -1014,7 +1014,7 @@ initFunction(initPrint)
             "             Contact  Email:  mikaem@math.uio.no  Snail mail: M. Mortensen Postboks 1053 Blindern 0316 OSLO Norway  Office: At UiO Nils Henrik Abel building, room 906 Moltke Moe's vei 35 0371 OSLO  GitHub user: mikaem  Bitbucket user: mikael_mortensen  Google: mikael.mortensen@gmail.com                     ",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/contact.html",
+        "url": "https://mikaem.github.io/contact.html",
         "teaser":null},{
         "title": "CV",
         
@@ -1022,7 +1022,7 @@ initFunction(initPrint)
             "             CV  I will try to get a complete CV up here, but meanwhile please refer to the following pages:  Google Scholar  ResearchGate                     ",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/cv.html",
+        "url": "https://mikaem.github.io/cv.html",
         "teaser":null},{
         "title": "Home",
         
@@ -1030,7 +1030,7 @@ initFunction(initPrint)
             "Professor Mikael Mortensen's homepage Rayleigh-Bénard convection computed using spectralDNS. Welcome to my homepage! I work as a Professor in Fluid Mechanics at the Department of Mathematics, University of Oslo. My primary interests are Computational Fluid Dynamics (CFD) and the many aspects of turbulent fluid flows, ranging from physics, modeling, numerical methods, software implementation and applications. I spend part of my time within the 4DSpace strategic research initiative, where we study instabilities and turbulence in the polar ionosphere. I am also a Python enthusiast and I use this language as often as possible in teaching and scientific computing. Recent highlights 5/3...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/intro.html",
+        "url": "https://mikaem.github.io/intro.html",
         "teaser":null},{
         "title": "Biomedical Flows",
         
@@ -1038,7 +1038,7 @@ initFunction(initPrint)
             "Biomedical flows I have been working from 2012-2016 as an adjunct research scientist at Simula Research Laboratory. Here I had the great honor to be working with the late Prof. Hans Petter Langtangen [(Valen-Sendstad, Mardal, Mortensen, Reif, &amp; Langtangen, 2011), (Mortensen &amp; Langtangen, 2016), (Mortensen, Mardal, &amp; Langtangen, 2012), (Mortensen, Langtangen, &amp; Wells, 2011)], at the Center for Biomedical Computing. I have contributed quite a bit to the FEniCS project, and the incompressible Navier-Stokes solver Oasis has been developed within the FEniCS framework. The solver has been developed for efficiency, with MPI, and it is written entirely in Python. The...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/biomedical.html",
+        "url": "https://mikaem.github.io/research/biomedical.html",
         "teaser":null},{
         "title": "Turbulent Combustion",
         
@@ -1046,7 +1046,7 @@ initFunction(initPrint)
             "Turbulent Combustion For my PhD thesis, and subsequent year as Post Doc at the University of Sydney, Australia, I worked mostly with the Conditional Moment Closure (CMC), a state-of-the-art model that is used to capture turbulence-chemistry interactions (e.g., (Mortensen, 2004; Mortensen &amp; de Bruyn Kops, 2008). From 2005-2006 I had the great honour of working with Prof. Robert W. Bilger as a Post Doctoral research fellow at the University of Sydney, Australia. In Sydney I worked on CMC for spray combustion (Mortensen &amp; Bilger, 2009) and a version of my consistent turbulent mixer model (Mortensen, 2005) that I have called...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/cmc.html",
+        "url": "https://mikaem.github.io/research/cmc.html",
         "teaser":null},{
         "title": "Multiphase flow",
         
@@ -1054,7 +1054,7 @@ initFunction(initPrint)
             "Multiphase Annulus flow in an experimental configuration at IFE. Note the inner concentric pipe. I currently supervise two PhD-students, Tormod Landet and Christopher Friedemann, that are working on two widely different aspects of two-phase flows. Christopher is involved in the Annulus flow project headed by IFE and in collaboration with Imperial College London. The project is sponsored by the Norwegian Research Council. We use OpenFOAM to simulate and understand two-phase flows in annulus configurations (Friedemann, Mortensen, &amp; Nossen, 2017; Friedemann, Mortensen, &amp; Nossen, 2019), i.e., flow between an inner and outer pipe. In Tormod's project we are investigating finite element...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/multiphase.html",
+        "url": "https://mikaem.github.io/research/multiphase.html",
         "teaser":null},{
         "title": "Numerical methods",
         
@@ -1062,7 +1062,7 @@ initFunction(initPrint)
             "Numerical methods My (now finished) PhD student Miroslav Kuchta has been looking at numerical methods to solve saddle point systems arising from trace constraints coupling 2D and 1D domains, or 3D and 1D domains [(Kuchta, Nordaas, Verschaeve, Mortensen, &amp; Mardal, 2016), (Kuchta, Mardal, &amp; Mortensen, 2018) and (Kuchta, Mardal, &amp; Mortensen, 2015)]. We have also been studying the singular Neumann problem of linear elasticity (Kuchta, Mardal, &amp; Mortensen, 2018). Four different formulations of the problem have been analyzed and mesh independent preconditioners established for the resulting linear systems within the framework of operator preconditioning. We have proposed a preconditioner for...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/numerical.html",
+        "url": "https://mikaem.github.io/research/numerical.html",
         "teaser":null},{
         "title": "4DSpace",
         
@@ -1070,7 +1070,7 @@ initFunction(initPrint)
             "4DSpace In the strategic research initiative 4DSpace we study instabilities and turbulence in the polar ionosphere with an integrated, multi-scale 4D (3D in space and time) experimental, theoretical, and modelling approach. Two of my PhD students Diako Darian and Sigvald Marholm are both working under the 4DSpace umbrella, that altogether count approximately 40 people. We are focusing on developing unstructured Particle In Cell (PIC) codes with finite element and Lagrangian particle methods, within the FEniCS framework. See (Marholm, Darian, Mortensen, Marchand, &amp; Miloch, 2018) and the Particles in UNstructured Cells code PUNC. In the paper by (Darian et al., 2017)...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/plasma.html",
+        "url": "https://mikaem.github.io/research/plasma.html",
         "teaser":null},{
         "title": "Short Bio",
         
@@ -1078,7 +1078,7 @@ initFunction(initPrint)
             "Short Bio Isotropic turbulence computed using my spectralDNS code Professor Mikael Mortensen received his PhD in mathematical modeling of turbulent reactive flows from Chalmers University of Technology, Sweden in 2005. He then worked for one year as a Post-Doctoral research fellow at the University of Sydney, in the world leading research group of Prof. Robert W. Bilger at the School of Aerospace, Mechanical and Mechatronic Engineering. While in Sydney he worked mainly with developing mathematical models for spray combustion, and turbulent mixing of flows with multiple injections. Returning to Norway, he worked with turbulence modelling and Computational Fluid Dynamics (CFD)...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/research.html",
+        "url": "https://mikaem.github.io/research/research.html",
         "teaser":null},{
         "title": "SpectralDNS",
         
@@ -1086,7 +1086,7 @@ initFunction(initPrint)
             "SpectralDNS Rayleigh-Bénard convection computed with spectral accuracy using a spectralDNS solver. The spectralDNS project revolves around implementing high-performance flow solvers in Python, which is a modern and very high-level programming language. The project is supported through several grants from King Abdullahs University of Science and Technology, granting access to some of the world's largest supercomputers. The work has been presented at several conferences and as invited talks 11'th International Conference on Scientific Computing and Applications International Conference on Computational Science and Engineering I3MS Seminar Series of the Institute for Modeling and Simulation, 6 Nov 2017 RWTH AAchen University Predictive Complex...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/research/spectraldns.html",
+        "url": "https://mikaem.github.io/research/spectraldns.html",
         "teaser":null},{
         "title": "Codes",
         
@@ -1094,7 +1094,7 @@ initFunction(initPrint)
             "Codes Here is a collection of links to more or less interesting codes for scientific computing. My codes shenfun mpi4py-fft spectralDNS Oasis fenicstools Other useful codes FEniCS - Finite element software mpi4py - MPI for Python Nek5000 - Spectral element Navier-Stokes and similar FFTW - Fastest Fourier transforms in the West. HDF5 - Binary data storage OpenFOAM - Open source CFD (computational fluid dynamics) software. ParaView - Visualization toolkit. Semtex PETSc - Portable, Extensible Toolkit for Scientific Computation SciPy - Scientific computing in Python. NumPy - Scientific computing in Python. Sympy - Python library for symbolic mathematics. Numba - Makes...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/resources/codes.html",
+        "url": "https://mikaem.github.io/resources/codes.html",
         "teaser":null},{
         "title": "Japan-Norway partnership program",
         
@@ -1102,7 +1102,7 @@ initFunction(initPrint)
             "Japan-Norway Partnership The Japanese-Norwegian Partnership in Space Simulations between the University of Oslo and Kobe University provides a unique study opportunity for students interested in space science and numerical modeling. The Kobe-Oslo project is centered on numerical simulations of space related problems, such as interaction between sounding rockets and plasma, cometary environment, asteroids and lunar surfaces, or plasma turbulence. Participating students learn how to use and create large scale numerical models, run them on supercomputers, and relate their results to ongoing space missions. The workshops are biannual, one in Norway and one in Kobe, Japan. Picture below from the first...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/teaching/japan.html",
+        "url": "https://mikaem.github.io/teaching/japan.html",
         "teaser":null},{
         "title": "Students",
         
@@ -1110,7 +1110,7 @@ initFunction(initPrint)
             "Students Current and previous students of mine are listed below. PhD Students Kristian Valen-Sendstad Computational Cerebral Hemodynamics (2008 - 2011) Magnus Vartdal Numerical Simulation of Flow Around an Oscillating Circular Cylinder and Development of Level Set Based Numerical Methods for Two-Phase Flows (2009 - 2013) Karen Helene Støverud Relation Between the Chiari I Malformation and Syringomyelia From a Mechanical Perspective (2009 - 2014) Miroslav Kuchta Preconditioners for Singular Problems and Coupled Problems with Domains of Different Dimensionality (2012 - 2016) Diako Darian (2014 - 2019) Plasma-object interactions Tormod Landet (2014 - ) Sigvald Marholm (2014 - ) Christopher Friedemann (2016...",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/teaching/students.html",
+        "url": "https://mikaem.github.io/teaching/students.html",
         "teaser":null},{
         "title": "Courses",
         
@@ -1118,7 +1118,7 @@ initFunction(initPrint)
             "             Courses  At the University of Oslo, Department of Mathematics, I have been teaching the following courses:   Continuum Mechanics   Fluid Mechanics   Viscous Flow and Turbulence   Computational Fluid Mechanics                       ",
         "categories": [],
         "tags": [],
-        "url": "http://folk.uio.no/mikaem/teaching/teaching.html",
+        "url": "https://mikaem.github.io/teaching/teaching.html",
         "teaser":null},]
 </script>
             </div>
