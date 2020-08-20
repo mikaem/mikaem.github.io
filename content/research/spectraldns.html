@@ -126,11 +126,6 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="plasma.html#references">
-   References
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="numerical.html">
    Numerical methods
   </a>
@@ -371,19 +366,20 @@ in <a class="bibtex reference internal" href="#mpi4py-fft-joss" id="id6">[MDK19]
 
 <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s2">&quot;x,y&quot;</span><span class="p">)</span>
 
-<span class="n">C</span> <span class="o">=</span> <span class="n">Basis</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="s1">&#39;Chebyshev&#39;</span><span class="p">)</span>
-<span class="n">F</span> <span class="o">=</span> <span class="n">Basis</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="s1">&#39;Fourier&#39;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;d&#39;</span><span class="p">)</span>
+<span class="n">C</span> <span class="o">=</span> <span class="n">FunctionSpace</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="s1">&#39;Chebyshev&#39;</span><span class="p">)</span>
+<span class="n">F</span> <span class="o">=</span> <span class="n">FunctionSpace</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="s1">&#39;Fourier&#39;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;d&#39;</span><span class="p">)</span>
 <span class="n">T</span> <span class="o">=</span> <span class="n">TensorProductSpace</span><span class="p">(</span><span class="n">comm</span><span class="p">,</span> <span class="p">(</span><span class="n">C</span><span class="p">,</span> <span class="n">F</span><span class="p">))</span>
-<span class="n">u</span> <span class="o">=</span> <span class="n">project</span><span class="p">(</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="o">*</span><span class="n">y</span><span class="p">),</span> <span class="n">T</span><span class="p">)</span>
+<span class="n">u</span> <span class="o">=</span> <span class="n">project</span><span class="p">(</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">pi</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">*</span><span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="o">*</span><span class="n">y</span><span class="p">),</span> <span class="n">T</span><span class="p">)</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">T</span><span class="o">.</span><span class="n">local_mesh</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">contourf</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">u</span><span class="o">.</span><span class="n">backward</span><span class="p">())</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">contourf</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">u</span><span class="o">.</span><span class="n">backward</span><span class="p">(),</span> <span class="mi">100</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/spectraldns_5_0.svg" src="../../_images/spectraldns_5_0.svg" /></div>
+<img alt="../../_images/spectraldns_5_0.png" src="../../_images/spectraldns_5_0.png" />
+</div>
 </div>
 </div>
 <div class="section" id="mpi4py-fft">
