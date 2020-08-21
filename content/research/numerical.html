@@ -209,11 +209,14 @@
     
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/content/research/numerical.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../../_sources/content/research/numerical.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/content/research/numerical.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -248,7 +251,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/mikaem/jbhomepage/master?urlpath=tree/content/research/numerical.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/mikaem/jbhomepage/master?urlpath=tree/content/research/numerical.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -291,7 +294,7 @@
 <h1>Numerical methods<a class="headerlink" href="#numerical-methods" title="Permalink to this headline">¶</a></h1>
 <p>My (now finished) PhD student Miroslav Kuchta has been looking at numerical methods to solve
 saddle point systems arising from trace constraints coupling 2D and 1D domains,
-or 3D and 1D domains <a class="bibtex reference internal" href="#kuchta2016" id="id1">[KNV+16]</a><a class="bibtex reference internal" href="#kuchta2016preconditioning" id="id2">[KMM18b]</a><span class="bibtex" id="id3">[cite kuchta15]</span>.</p>
+or 3D and 1D domains <a class="bibtex reference internal" href="#kuchta2016" id="id1">[KNV+16]</a><a class="bibtex reference internal" href="#kuchta2016preconditioning" id="id2">[KMM18b]</a><a class="bibtex reference internal" href="#kuchta15" id="id3">[KMM15]</a>.</p>
 <p>We have also been studying the singular Neumann problem of linear elasticity
 <a class="bibtex reference internal" href="#kuchta2016singular" id="id4">[KMM18a]</a>.
 Four different formulations of the problem have been analyzed and mesh independent preconditioners established for the resulting linear systems within the framework of operator preconditioning. We have proposed a preconditioner for the (singular) mixed formulation of linear elasticity, that is robust with respect to the material parameters. Using an orthonormal basis of the space of rigid motions, discrete projection operators have been derived and employed in a modification to the conjugate gradients method to ensure optimal error convergence of the solution.</p>
@@ -301,6 +304,9 @@ Four different formulations of the problem have been analyzed and mesh independe
 <p id="bibtex-bibliography-content/research/numerical-0"><dl class="citation">
 <dt class="bibtex label" id="ketcheson2020"><span class="brackets"><a class="fn-backref" href="#id5">KMPS20</a></span></dt>
 <dd><p>David I. Ketcheson, Mikael Mortensen, Matteo Parsani, and Nathanael Schilling. More efficient time integration for fourier pseudospectral dns of incompressible turbulence. <em>International Journal for Numerical Methods in Fluids</em>, 92(2):79–93, 2020. URL: <a class="reference external" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.4773">https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.4773</a>, <a class="reference external" href="https://arxiv.org/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1002/fld.4773">arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/fld.4773</a>, <a class="reference external" href="https://doi.org/10.1002/fld.4773">doi:10.1002/fld.4773</a>.</p>
+</dd>
+<dt class="bibtex label" id="kuchta15"><span class="brackets"><a class="fn-backref" href="#id3">KMM15</a></span></dt>
+<dd><p>M. Kuchta, K. A. Mardal, and M. Mortensen. Characterization of the space of rigid motions in arbitrary domains. In <em>In Bjørn Helge Skallerud and Helge Ingolf Andersson (ed.), MekIT’15 - Eight national conference on Computational Mechanics. International Center for Numerical Methods in Engineering (CIMNE)</em>, 259–274. 2015.</p>
 </dd>
 <dt class="bibtex label" id="kuchta2016singular"><span class="brackets"><a class="fn-backref" href="#id4">KMM18a</a></span></dt>
 <dd><p>Miroslav Kuchta, Kent-Andre Mardal, and Mikael Mortensen. On the singular neumann problem in linear elasticity. <em>Numerical Linear Algebra with Applications</em>, 2018. URL: <a class="reference external" href="https://arxiv.org/abs/1609.09425">https://arxiv.org/abs/1609.09425</a>.</p>
